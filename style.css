@@ -40,6 +40,13 @@ h2 {
   font-weight: 700;
   font-size: 4em;
 }
+a:link, a:visited {
+  color:inherit;
+}
+
+a:hover, a:active {
+  color: #0004f5;
+}
 
 h3 {
   margin: 0;
@@ -62,7 +69,7 @@ h3 {
 } */
 
 p, li {
-  margin: 0;
+  margin: 5vh 0 0 0;
   text-align: center;
   color: #00008B;
   list-style-position: inside;
@@ -149,6 +156,11 @@ div.vCenter {
 }
 
 #n7 {
+  /* blue */
+  background: #D252B2;
+}
+
+#n8 {
   /* blue */
   background: #1E90FF;
 }
