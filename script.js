@@ -17,5 +17,5 @@ function changeText(txt) {
 
 // takes 1 parameter: id of the element that's going to change and shows default text as specified in var default.
 function defaultText() {
-  document.getElementById("landingTxt").innerHTML = "I've developed 10 guidelines, for your consideration, on how to make more responsibly.";
+  document.getElementById("landingTxt").innerHTML = "I've developed 8 guidelines, for your consideration, on how to make more responsibly.";
 }
