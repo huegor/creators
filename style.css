@@ -94,6 +94,10 @@ div.vCenter {
   vertical-align: middle;
 }
 
+img {
+  width: 100%;
+}
+
 .spacerL {
   height:10vh;
 }
@@ -119,6 +123,24 @@ div.vCenter {
 .arrow img:hover{
   filter: brightness(200);
 }
+
+/* for mobile */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 7em;
+  }
+  h2 {
+    font-size: 4.75em;
+  }
+  p, li {
+    font-size: 3em;
+  }
+  .arrow img{
+    width: 10em;
+  }
+}
+
+
 
 #landing {
   background:#49ffaf;
