@@ -12,6 +12,7 @@ regular: 400
 bold: 700
 xtra bold: 800
 */
+
 .hide {
   display:none;
 }
@@ -23,7 +24,7 @@ h1 {
   /*xtra bold*/
   font-family: open-sans, sans-serif;
   font-weight: 800;
-  font-size: 10em;
+  font-size: 6em;
 }
 
 h1:hover {
@@ -38,7 +39,7 @@ h2 {
   /*bold*/
   font-family: open-sans, sans-serif;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3em;
 }
 a:link, a:visited {
   color:inherit;
@@ -59,14 +60,6 @@ h3 {
   font-weight: 300;
   font-size: 1em;
 }
-
-/* #creators:hover +.hide{
-  display: block;
-}
-
-#heuristics:hover +.hide{
-  display: block;
-} */
 
 p, li {
   margin: 5vh 0 0 0;
@@ -124,21 +117,30 @@ img {
   filter: brightness(200);
 }
 
-/* for mobile */
-@media screen and (max-width: 896px) {
+/* set mobile as default*/
+
+
+/* for tablet */
+@media screen and (min-width: 881px) {
   h1 {
-    font-size: 5.5em;
+    font-size: 7.75em;
+  }
+  h2 {
+    font-size: 3.5em;
+  }
+}
+
+/* for desktop*/
+@media screen and (min-width: 1108px) {
+  h1 {
+    font-size: 10em;
   }
   h2 {
     font-size: 4em;
   }
-  p, li {
-    font-size: 3em;
-  }
-  .arrow img{
-    width: 5.5em;
-  }
 }
+
+
 
 
 
