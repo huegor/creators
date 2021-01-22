@@ -150,25 +150,22 @@ img {
 #landing {
   background:#49ffaf;
 }
-
 #n1 {
   /* peach */
   background:#FF7F50;
 }
-
 #n2{
   /* purple */
   background:#BF55EC;
 
 }
-
 #n3{
   /* lime */
   background:#BAF73C;
 }
 
 #n4 {
-  /* rose */
+  /* red */
   background:#F64747;
 }
 
@@ -183,11 +180,19 @@ img {
 }
 
 #n7 {
-  /* blue */
+  /* magenta */
   background: #D252B2;
 }
 
 #n8 {
   /* blue */
   background: #1E90FF;
+}
+#n9 {
+  /* peach */
+  background: #FFA07A;
+}
+#n10 {
+  /* teal */
+  background: #2ECCB0;
 }
